@@ -2,9 +2,9 @@
     .section-title h2{
         color: black;
     }
-    .about .content .tab tr td{
+    /*.about .content .tab tr td{
         min-width: 65%;
-    }
+    }*/
     #hero {
         width: 100%;
         height: 80vh;
@@ -21,9 +21,9 @@
     }   
 }
 @media (max-width: 768px){
-    .about .content .tab tr td{
+    /*.about .content .tab tr td{
         max-width: 40%;
-    }  
+    }*/  
 }
 @media (max-width: 576px){
     #hero {
@@ -40,18 +40,23 @@
         color: white;
         text-align: center;
     }  
-    .about .content .tab tr td{
+    /*.about .content .tab tr td{
         max-width: 65%;
+    }*/
+    .tab tr td{
+        font-size: 14px;
     }
+
 }
 
 @media (min-width: 768px){
+
     .section-title h2{
         color: black;
     }
-    .about .content .tab tr td {
+    /*.about .content .tab tr td {
         min-width: 55%;
-    }
+    }*/
     #hero h1 {
         margin: 0 0 10px 0;
         font-size: 64px;
@@ -66,13 +71,18 @@
         background-size: cover;
         position: relative;
     }
+    .tab tr .tb-hd {
+        white-space: nowrap;
+        font-weight: bold;
+        padding: 0px 15px 25px 0;
+    }
 
 }
 
 @media (min-width: 991px){
-    .about .content .tab tr td {
+    /*.about .content .tab tr td {
         min-width: 65%;
-    }
+    }*/
     #hero h1 {
         margin: 0 0 10px 0;
         font-size: 64px;
@@ -90,15 +100,20 @@
     .order-lg-0 {
     order: 0!important;
     }
-    
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+        padding:100px 330px 100px;
+        width: 100%;
+    }
 }
 @media (min-width: 1200px){
     .section-title h2{
         color: black;
     }
-    .about .content .tab tr td {
+   /* .about .content .tab tr td {
         min-width: 65%;
-    }
+    }*/
     #hero h1 {
         margin: 0 0 10px 0;
         font-size: 64px;

@@ -9,6 +9,7 @@
 
     <!-- Favicons -->
     <link rel="icon" href="assets/img/favicons/favicon.ico">
+    <link rel="stylesheet" href="assets/fonts/bootstrap-icons/font/bootstrap-icons.css">
 
     <!-- Custom styles for this template with bootstrap css -->
     <!-- build:css -->
@@ -18,103 +19,174 @@
 
 <body>
     <div class="aside">
-        <div>logo</div>
-        <div>navigation</div>
-    </div>
-    <div class="main-section">
-        <header>header</header>
-        <div>compnaies</div>
-        <div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <div><a href="#" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#AddCompanies">Add Companies</a></div>
-                        <div class="modal fade" id="AddCompanies" tabindex="-1" aria-labelledby="AddCompaniesLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="AddCompaniesLabel">Modal title</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
+        <div class="aside-icon">
+            <div class="wrapper">
+                <nav id="sidebar" class="sidebar">
+                    <a class="sidebar-brand" href="sign.html">
+                        Network
+                    </a>
+                    <div class="sidebar-content">
+                        <div class="sidebar-user">
+                            <img src="assets/img/ohh.png" class="img-fluid rounded-circle mb-2" alt="Admin" />
+                            <div class="fw-bold">Fuzail</div>
+                            <small>Full stack Developer</small>
+                            <ul class="sidebar-nav">
+                                <li class="sidebar-header">
+                                    Main
+                                </li>
+                                <li class="sidebar-item active">
+                                    <a href="companies.html" class="sidebar-link">
+                                        <i class="align-middle me-2 bi bi-facebook"></i> <span
+                                            class="align-middle">Dashboards</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item active">
+                                    <a href="companies.html" class="sidebar-link">
+                                        <i class="align-middle me-2 bi bi-facebook"></i> <span
+                                            class="align-middle">Dashboards</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item active">
+                                    <a href="companies.html" class="sidebar-link">
+                                        <i class="align-middle me-2 bi bi-facebook"></i> <span
+                                            class="align-middle">Dashboards</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item active">
+                                    <a href="companies.html" class="sidebar-link">
+                                        <i class="align-middle me-2 bi bi-facebook"></i> <span
+                                            class="align-middle">Dashboards</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item active">
+                                    <a href="companies.html" class="sidebar-link">
+                                        <i class="align-middle me-2 bi bi-facebook"></i> <span
+                                            class="align-middle">Dashboards</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item active">
+                                    <a href="companies.html" class="sidebar-link">
+                                        <i class="align-middle me-2 bi bi-facebook"></i> <span
+                                            class="align-middle">Dashboards</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item active">
+                                    <a href="companies.html" class="sidebar-link">
+                                        <i class="align-middle me-2 bi bi-facebook"></i> <span
+                                            class="align-middle">Dashboards</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item active">
+                                    <a href="companies.html" class="sidebar-link">
+                                        <i class="align-middle me-2 bi bi-facebook"></i> <span
+                                            class="align-middle">Dashboards</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item active">
+                                    <a href="companies.html" class="sidebar-link">
+                                        <i class="align-middle me-2 bi bi-facebook"></i> <span
+                                            class="align-middle">Dashboards</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                </nav>
+                <div class="main-section">
+                    <header>header</header>
+                    <div>compnaies</div>
+                    <div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div><a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#AddCompanies">Add Companies</a></div>
+                                    <div class="modal fade" id="AddCompanies" tabindex="-1"
+                                        aria-labelledby="AddCompaniesLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="AddCompaniesLabel">Modal title</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1" class="form-label">
+                                                            COMPANY
+                                                            NAME</label>
+                                                        <input type="ComapnyName" class="form-control"
+                                                            id="exampleFormControlInput1" placeholder="Add company">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1"
+                                                            class="form-label">EMAIL-ID</label>
+                                                        <input type="email" class="form-control"
+                                                            id="exampleFormControlInput1" placeholder="add email">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1" class="form-label">NEW
+                                                            PASSWORD</label>
+                                                        <input type="email" class="form-control"
+                                                            id="exampleFormControlInput1" placeholder="enter password">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="exampleFormControlInput1" class="form-label">CONFIRM
+                                                            PASSWORD</label>
+                                                        <input type="email" class="form-control"
+                                                            id="exampleFormControlInput1"
+                                                            placeholder="confirm password">
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Add Company</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="modal-body">
-                                        <div class="mb-3">
-                                            <label for="exampleFormControlInput1" class="form-label"> COMPANY
-                                                NAME</label>
-                                            <input type="ComapnyName" class="form-control" id="exampleFormControlInput1"
-                                                placeholder="Add company">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleFormControlInput1" class="form-label">EMAIL-ID</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                                placeholder="add email">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleFormControlInput1" class="form-label">NEW
-                                                PASSWORD</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                                placeholder="enter password">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleFormControlInput1" class="form-label">CONFIRM
-                                                PASSWORD</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                                placeholder="confirm password">
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Add Company</button>
-                                    </div>
+
+                                    <table class="table">
+                                        <tr>
+                                            <th>S.NO</th>
+                                            <th>COMPANY NAME</th>
+                                            <th>EMAIL-ID</th>
+                                            <th>BROUGHT-ON</th>
+                                            <th>ACTION</th>
+                                        </tr>
+                                        <tr>
+                                            <td>12345</td>
+                                            <td>Apex solution</td>
+                                            <td>apex@123.co.in</td>
+                                            <td>25/11/2002</td>
+                                            <td><a href="#">Edit</a> <a href="#">delete</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>12345</td>
+                                            <td>Apex solution</td>
+                                            <td>apex@123.co.in</td>
+                                            <td>25/11/2002</td>
+                                            <td><a href="#">Edit</a> <a href="#">delete</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>12345</td>
+                                            <td>krista solution</td>
+                                            <td>akrista@123.co.in</td>
+                                            <td>28/11/2008</td>
+                                            <td><a href="#">Edit</a> <a href="#">delete</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>12345</td>
+                                            <td>Apextech solution</td>
+                                            <td>apext@123.co.in</td>
+                                            <td>25/11/2015</td>
+                                            <td><a href="#">Edit</a> <a href="#">delete</a></td>
+                                    </table>
                                 </div>
                             </div>
                         </div>
-
-                        <table class="table">
-                            <tr>
-                                <th>S.NO</th>
-                                <th>COMPANY NAME</th>
-                                <th>EMAIL-ID</th>
-                                <th>LOCATION</th>
-                                <th>BROUGHT-ON</th>
-                                <th>ACTION</th>
-                            </tr>
-                            <tr>
-                                <td>12345</td>
-                                <td>Apex solution</td>
-                                <td>apex@123.co.in</td>
-                                <td>Baroda</td>
-                                <td>25/11/2002</td>
-                                <td><a href="#">Edit</a> <a href="#">delete</a></td>
-                            </tr>
-                            <tr>
-                                <td>12345</td>
-                                <td>Apex solution</td>
-                                <td>apex@123.co.in</td>
-                                <td>Baroda</td>
-                                <td>25/11/2002</td>
-                                <td><a href="#">Edit</a> <a href="#">delete</a></td>
-                            </tr>
-                            <tr>
-                                <td>12345</td>
-                                <td>krista solution</td>
-                                <td>akrista@123.co.in</td>
-                                <td>delhi</td>
-                                <td>28/11/2008</td>
-                                <td><a href="#">Edit</a> <a href="#">delete</a></td>
-                            </tr>
-                            <tr>
-                                <td>12345</td>
-                                <td>Apextech solution</td>
-                                <td>apext@123.co.in</td>
-                                <td>mumbai</td>
-                                <td>25/11/2015</td>
-                                <td><a href="#">Edit</a> <a href="#">delete</a></td>
-                        </table>
                     </div>
+
                 </div>
             </div>
         </div>

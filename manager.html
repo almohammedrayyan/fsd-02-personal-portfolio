@@ -51,7 +51,7 @@
     <div class="main-section">
         <header>
             <div class="contanier-fluid">
-                <div class="row">
+                <div class="row justify-content-between">
                     <div class="col">
                         <form class="d-none d-sm-inline-block">
                             <i class="bi bi-search"></i><input class="form-control form-control-lite" type="text"
@@ -59,7 +59,17 @@
                         </form>
                     </div>
                     <div class="col">
-                        My account
+                        <div class="dropdown dropdown-1 text-end">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown link
+                            </a>
+                          
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -77,12 +87,12 @@
         </div>
 
         <div class="page-content-section">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="card card-type-1">
                             <div class="card-header">
-                                <div class="d-flex">
+                                <div class="d-flex justify-content-between">
                                     <h4>Manager Details</h4>
                                     <div><a href="#" class="btn btn-primary" data-bs-toggle="modal"
                                             data-bs-target="#AddManager">AddManager</a></div>

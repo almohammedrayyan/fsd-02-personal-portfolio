@@ -17,12 +17,12 @@
 html {
   scroll-behavior: smooth;
 }
-body{
+body {
   background-color: grey;
 }
 /* Padding below the footer and lighter body text */
-.aside{
-  color:black;
+.aside {
+  color: black;
   height: 100vh;
   background-color: lavender;
   width: 200px;
@@ -31,7 +31,7 @@ body{
   left: 0;
 }
 
-.header{
+.header {
   background-color: #012863;
   height: 50px;
 }
@@ -41,13 +41,13 @@ body{
   margin-left: 50px;
   color: #fff;
 }
-.header img{
+.header img {
   height: 30px;
   width: 30px;
   margin-left: 14px;
   margin-top: 10px;
 }
-.navigation{
+.navigation {
   background-color: lavender;
 }
 .sidebar-user {
@@ -56,73 +56,85 @@ body{
   padding: 1.5rem 1rem 1rem;
   text-align: center;
 }
-.sidebar-user img{
+.sidebar-user img {
   height: 40px;
   width: 40px;
 }
-.nav-style-1{
+.nav-style-1 {
   color: black;
-  .nav-item{
+  .nav-item {
     color: rgb(17, 17, 17);
     .nav-link,
-    .nav-link:hover{
+    .nav-link:hover {
       color: black;
       background: lavender;
     }
     .nav-link.active,
-    .nav-link:hover{
+    .nav-link:hover {
       color: black;
       background: grey;
     }
   }
 }
-.nav-link i{
+.nav-link i {
   margin-right: 5px;
   color: #012863;
 }
-.main-section{
+.main-section {
   padding-left: 200px;
 }
-.main-section .row{
+.main-section .row {
   color: #fff;
 }
-.main-section .col{
+.main-section .col {
   margin-left: 20px;
 }
-.main-section .col i{
+.main-section .col i {
   margin-left: 10px;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 20px;
+  color: black;
 }
-header{
+header {
   background: #012863;
   min-height: 130px;
   border-bottom: solid 1px #dce469;
 }
-.page-title-section{
+.page-title-section {
   background-color: #0f0f0f;
   border-bottom: solid 1px #141414;
-  .page-title{
+  .page-title {
     color: rgb(245, 239, 239);
     text-align: center;
   }
-} 
-.page-content-section{
+}
+.page-content-section {
   padding: 20px 0;
 }
-.card-type-1{
+.card-type-1 {
   color: black;
   border-radius: 20px;
-  .card-header{
+  .card-header {
     color: rgb(12, 12, 11);
-    h4{
-     color: #141414; 
-     text-align: center;
+    h4 {
+      color: #141414;
+      text-align: center;
     }
   }
-  .card-body{
+  .card-body {
     color: rgb(15, 15, 14);
   }
+}
+
+.form-control {
+  appearance: none;
+  display: block;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.25rem 0.7rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
 }
 .form-control-lite {
   background: transparent;
@@ -143,6 +155,65 @@ header{
   background-color: #0d6efd;
   border-color: #0d6efd;
 }
-.table i{
+.table i {
   margin-right: 4px;
+}
+.dropdown-1 {
+  color: #0f0f0f;
+  .dropdown-toggle {
+    color: none;
+    white-space: nowrap;
+    color: black;
+    background: transparent;
+    margin: 8px 15px;
+    border: none;
+    img {
+      width: 32px;
+      border-radius: 20%;
+    }
+    &:after {
+      display: none;
+    }
+    &:focus,
+    &:hover {
+      background-color: #012863;
+    }
+  }
+}
+.dropdown-menu {
+  border: none;
+  padding: 0;
+  li {
+    .dropdown-item {
+      color: rgb(12, 12, 11);
+      border-bottom: solid 1px grey;
+      padding: 10px 10px;
+    }
+  }
+}
+.nav-style-2 {
+  color: #0f0f0f;
+  .nav-item {
+  }
+  .nav-link-2 {
+    margin: 8px 15px;
+    border: none;
+    img {
+      width: 32px;
+      border-radius: 20%;
+    }
+  }
+}
+.nav-link-2 i {
+  margin-right: 5px;
+  color: #012863;
+}
+.nav-item .dropdown-1 i {
+  color: #f9fafd;
+}
+.nav-item .dropdown-1 .dropdown-menu i {
+  color: #0d0d0e;
+}
+.nav-item .dropdown-1 .dropdown-item .dropdown-menu a {
+  margin-left: 1px;
 }

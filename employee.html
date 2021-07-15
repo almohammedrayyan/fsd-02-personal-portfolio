@@ -50,7 +50,7 @@
     <div class="main-section">
         <header>
             <div class="contanier-fluid">
-                <div class="row">
+                <div class="row justify-content-between">
                     <div class="col">
                         <form class="d-none d-sm-inline-block">
                             <i class="bi bi-search"></i><input class="form-control form-control-lite" type="text"
@@ -58,7 +58,17 @@
                         </form>
                     </div>
                     <div class="col">
-                        My account
+                        <div class="dropdown dropdown-1 text-end">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="setting-profile-dropdown"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/img/ohh.png" alt="Admin" />
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="setting-profile-dropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -85,7 +95,6 @@
                                     <h4>Employee Details</h4>
                                     <div><a href="#" class="btn btn-primary" data-bs-toggle="modal"
                                             data-bs-target="#AddEmployee">AddEmployee</a></div>
-
                                 </div>
                             </div>
                             <div class="card-body">
